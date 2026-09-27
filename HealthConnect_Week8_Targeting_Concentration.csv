@@ -1,0 +1,7 @@
+Target group,Appointments,% of volume,No-shows,% of all no-shows,No-show rate %,Lift vs average
+High risk tier (4-rule),581,11.6,418,17.3,71.94,1.48
+Unreached long-lead (R1),1038,20.8,596,24.6,57.42,1.18
+2+ prior no-shows (R2),531,10.6,324,13.4,61.02,1.26
+R1 + R2 union,1464,29.3,844,34.8,57.65,1.19
+Compounding core: long-lead & 2+ prior,384,7.7,257,10.6,66.93,1.38
+All appointments (baseline),5000,100.0,2423,100.0,48.46,1.0

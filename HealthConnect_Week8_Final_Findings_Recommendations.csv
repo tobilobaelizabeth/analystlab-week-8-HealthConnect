@@ -1,0 +1,8 @@
+Finding ID,Finding,Evidence,Recommendation it supports
+F-01,Booking lead time is the primary no-show driver,V=0.252 full data; V=0.237 holdout (T1 PASS),"R1 targeted reminders, R2 confirmations, R3 scheduling policy"
+F-02,Previous no-show history is the secondary driver,V=0.125 full data; V=0.101 holdout (T1 PASS),R2 history-aware overbooking/confirmation
+F-03,Drivers compound: long lead + 2+ prior no-shows reaches 73% no-show,Compounding matrix validated against raw data,Prioritise the overlapping segment first (R1+R2 union)
+F-04,The 4-rule risk tier separates risk and generalises,High 71.94% full / 68.42% holdout; Low 30.9%/32.6%; all 5 splits PASS,Operational triage at booking — no model required; benchmark for DS (T6)
+F-05,Reminder coverage is flat across risk levels — the operational gap,High tier 38.9% vs Low tier 87.3% covered; 660 long-lead unreached,"R1: redirect reminder capacity to long-lead, high-risk bookings"
+F-06,Reminder association is robust but associational,"Adjusted OR=0.830, p=0.006 (T3); unadjusted fails on holdout (T1)",Rely on T4 randomised test for causal confirmation before scaling claims
+F-07,All 8 Week 5–7 KPIs are arithmetically correct,"Recomputed vs reported: 8/8 exact match (T5, re-verified Week 8)",Clinic can adopt the KPI register as its monitoring baseline

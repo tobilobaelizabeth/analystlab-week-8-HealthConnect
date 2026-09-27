@@ -1,0 +1,11 @@
+KPI ID,KPI,Definition / formula,Final value,Unit,Week 7 reported,Validated in,Decision it supports
+KPI-01,Appointment No-Show Rate,no_shows / total appointments,48.46,%,48.46,Weeks 5–7,Headline problem size; baseline for every scenario
+KPI-02,Attendance Rate,attended / total appointments,46.28,%,46.28,Weeks 5–7,Share of booked capacity actually used
+KPI-03,Cancellation Rate,cancelled / total appointments,5.26,%,5.26,Weeks 5–7,Small share — the recoverable loss is concentrated in no-shows
+KPI-04,Unrecoverable Slot Loss Rate,no_shows / non-cancelled appointments,51.15,%,51.15,Week 6,"Of usable slots, the fraction lost with no notice"
+KPI-05,Reminder Coverage Rate,reminded / total appointments,72.68,%,72.68,Weeks 5–7,The clinic's only controllable lever; coverage is flat across risk levels (ISS-12)
+KPI-06,High-Risk Reminder Gap,long-lead (>=31d) appointments with no reminder,660.0,appointments,660.0,Week 6,Directly actionable input to R1 (targeted reminder coverage)
+KPI-07,Repeat No-Show Patient Share,appointments by patients with 2+ prior no-shows / total,10.62,%,10.62,Weeks 6–7,Input to R2 (history-aware overbooking/confirmation)
+KPI-08,High-Tier No-Show Rate,no_shows / appointments in High risk tier,71.94,%,71.94,Weeks 6–7,Risk-tier triage quality; holdout equivalent 68.42% (T2 PASS)
+KPI-09,Lead-Time Effect Size (holdout),"Cramér's V, lead band vs outcome on Jan–Jun 2026",0.237,V,0.237,Week 7 (T1),Confirms the primary driver is not an overfit artefact (full-data V=0.252)
+KPI-10,Adjusted Reminder OR,exp(beta) from propensity-adjusted logistic model,0.83,OR,0.83,Week 7 (T3),Reminder effect survives adjustment (p=0.006) but stays associational (ISS-06)

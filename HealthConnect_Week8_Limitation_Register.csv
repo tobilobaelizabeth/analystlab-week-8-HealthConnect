@@ -1,0 +1,8 @@
+Limitation ID,Limitation,Evidence,Mitigation / handling
+L-01,"Reminder effect is associational, not causal (ISS-06)",T3 adjusted OR=0.830 (p=0.006) but assignment was not randomised,"T4 randomised channel test designed (2,440/arm × 3 arms); execute before causal claims"
+L-02,waiting_time_minutes definition unresolved (ISS-09),Populated for no-shows; indistinguishable from attended (p=0.78),Excluded from analysis and DS features; disposition owned by Project Management
+L-03,Low explained variance (pseudo R²=0.075),Measured variables explain little of the outcome variance,"Frame outputs as ranking/prioritisation, not individual prediction"
+L-04,No clinical or socioeconomic context (ISS-08),"Transport cost, work commitments, illness, cost of care not captured",Flag for future data collection; recommendations restricted to dataset evidence
+L-05,No record of clinic interventions (ISS-13),All findings cross-sectional; no before/after comparison possible,"Scenario ranges presented with explicit assumptions, not as forecasts"
+L-06,Synthetic training data,Findings sound within the dataset but not validated against real operations,Position the package as a decision-support framework ready for real-data adoption
+L-07,No live cross-track counterpart available,Collaboration documented as self-contained transferable artefacts,Handoff register defines exactly what each receiving track receives

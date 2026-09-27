@@ -1,0 +1,11 @@
+Requirement,Response
+What is my final component?,"The final HealthConnect decision-support package: validated driver set, risk tier, final KPI register, refined dashboard, prioritisation scenarios and executive summary"
+What problem does it address?,"Missed appointments: 48.46% of all appointments and 51.15% of non-cancelled slots end as no-shows, and the clinic's only controllable lever (reminders) is not directed at high-risk bookings (High-tier reminder coverage 38.9% vs Low-tier 87.3%)"
+What is its current status?,VALIDATED: 19/20 Week 7 tests PASS; every dashboard value matches the underlying data; both primary drivers confirmed on unseen data
+What did I improve during Week 7?,Holdout annotations and tier-stability panel added to the dashboard; CIs on both samples; KPI validation panel; conservative 68.42% holdout benchmark supplied to Data Science
+Which other track(s) does it depend on?,Data Science — the candidate model's Week 8 evaluation closes the T6 comparison; Project Management — resolution of ISS-09 (waiting_time_minutes definition)
+Which track(s) depend on my output?,"Data Science (benchmark 68.42% + feature specification); Project Management (final insights, KPIs and limitations for the closure report and presentation); ML Engineering (final KPI definitions and validated features for the pipeline documentation)"
+What output will I provide?,"HealthConnect_Week8_Final_Analytics_Decision_Support.ipynb, final dashboard PNG, final KPI register, prioritisation scenarios, final validated findings, executive summary, presentation section and this readiness matrix"
+What output do I need from another track?,Data Science: final model evaluation metrics for the T6 comparison; Project Management: the final integration walkthrough sequence and the ISS-09 disposition
+What evidence demonstrates readiness?,"Week 7 Testing & Validation Record (20 tests), validated findings CSV (holdout V values), 8/8 KPI match against raw data, dashboard panel-by-panel validation, and the reproducible Week 8 engine re-running every headline figure from the raw dataset"
+What limitations remain?,"Reminder effect is associational, not causal (ISS-06); waiting_time_minutes unresolved (ISS-09); pseudo R²=0.075 caps attainable accuracy; no clinical/socioeconomic context (ISS-08); no intervention history (ISS-13); synthetic training data"
